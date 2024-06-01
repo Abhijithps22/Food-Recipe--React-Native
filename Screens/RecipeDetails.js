@@ -39,7 +39,7 @@ export default RecipeDetails;
 
 const styles = StyleSheet.create({
     recipeDetails: {
-        backgroundColor: "#6f4e37",
+        backgroundColor: "#0AC004",
         flex: 1,
     },
     recipeDetails__data: {
