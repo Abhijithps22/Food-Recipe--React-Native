@@ -7,31 +7,32 @@
       "developmentClient": true,
       "distribution": "internal",
       "android": {
-        "image": "default"
+        "image": "ubuntu-22.04-ndk-r21e"
       },
       "ios": {
-        "image": "default"
+        "image": "macos-12-catalina"
       }
     },
     "preview": {
       "distribution": "internal",
       "android": {
-        "image": "default"
+        "image": "ubuntu-22.04-ndk-r21e"
       },
       "ios": {
-        "image": "default"
+        "image": "macos-12-catalina"
       }
     },
     "production": {
       "android": {
-        "image": "default"
+        "image": "ubuntu-22.04-ndk-r21e"
       },
       "ios": {
-        "image": "default"
+        "image": "macos-12-catalina"
       }
     }
   },
   "submit": {
     "production": {}
-  }
+  },
+  "owner": "abhijith_ps"
 }
