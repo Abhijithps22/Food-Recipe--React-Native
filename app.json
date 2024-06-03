@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "food-app",
-    "slug": "food-app",
+    "name": "Recipe Maker",
+    "slug": "recipe-maker",
+    "description": "Make Your Recipe",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/teahub.io-guava-juice-wallpaper-3329215.jpg",
+    "icon": "./assets/images/recipe.webp",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "/assets/images/teahub.io-lemon-wallpaper-hd-2083528.jpg",
+      "image": "./assets/images/recipe.webp",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,20 +18,29 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "/assets/images/teahub.io-guava-juice-wallpaper-3329215.jpg",
+        "foregroundImage": "./assets/images/recipe.webp",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abhijith_ps.recipemaker"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "/assets/images/teahub.io-guava-juice-wallpaper-3329215.jpg"
+      "favicon": "./assets/images/recipe.webp"
     },
     "plugins": [
       "expo-router"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "33e56ca7-9d1a-43eb-bcb0-b0235f8b09b1"
+      }
     }
   }
 }
