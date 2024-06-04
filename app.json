@@ -5,11 +5,11 @@
     "description": "Make Your Recipe",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/recipe.webp",
+    "icon": "./assets/images/recipe.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/recipe.webp",
+      "image": "./assets/images/recipe.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,7 +18,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/recipe.webp",
+        "foregroundImage": "./assets/images/recipe.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.abhijith_ps.recipemaker"
@@ -26,7 +26,7 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/recipe.webp"
+      "favicon": "./assets/images/recipe.png"
     },
     "plugins": [
       "expo-router"
@@ -39,9 +39,15 @@
         "origin": false
       },
       "eas": {
-        "projectId": "33e56ca7-9d1a-43eb-bcb0-b0235f8b09b1"
+        "projectId": "82f0b8db-864f-4940-99f2-ebe0f99ce770"
       }
     },
-    "owner": "abhijith_ps"
+    "owner": "abhijith_ps",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/82f0b8db-864f-4940-99f2-ebe0f99ce770"
+    }
   }
 }

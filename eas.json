@@ -7,28 +7,31 @@
       "developmentClient": true,
       "distribution": "internal",
       "android": {
-        "image": "ubuntu-22.04-jdk-11-ndk-r21e"
+        "image": "ubuntu-22.04-ndk-r21e"
       },
       "ios": {
         "image": "macos-12-catalina"
-      }
+      },
+      "channel": "development"
     },
     "preview": {
       "distribution": "internal",
       "android": {
-        "image": "ubuntu-22.04-jdk-11-ndk-r21e"
+        "image": "ubuntu-22.04-ndk-r21e"
       },
       "ios": {
         "image": "macos-12-catalina"
-      }
+      },
+      "channel": "preview"
     },
     "production": {
       "android": {
-        "image": "ubuntu-22.04-jdk-11-ndk-r21e"
+        "image": "ubuntu-22.04-ndk-r21e"
       },
       "ios": {
         "image": "macos-12-catalina"
-      }
+      },
+      "channel": "production"
     }
   },
   "submit": {
